@@ -1,1 +1,4 @@
 Flask==3.0.3
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+huggingface-hub==0.25.0
