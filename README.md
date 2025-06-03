@@ -13,8 +13,8 @@ install packages via `pip install`
 
 dump your journal textfiles into dataset_template.txt and rename it to dataset.txt
 
-NOTE: cache/ will be generated if it does not exist and will make it fast to search through entries. however, if you change dataset.txt in any way, you must delete cache/ so indexing is not weird.
+NOTE: currently `clean.py` will delete any lines that start with [ because that's usually how i format my todo lists. if you want to change this, modify clean.py!
 
-`npm run dev`
+`npm run dev`, which will also clean the cache every time & regenerate embeddings from the dataset
 
 profit
